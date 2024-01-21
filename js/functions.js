@@ -51,7 +51,11 @@ function busqueda(evt) {
     };
     Toastify({
         text: "¡Filtrado de Categoría exitoso!",
-        duration: 3000
+        duration: 3000,
+        style: {
+            background: "linear-gradient(90deg,#ee00ff 0%, #ffa000 80%)",
+            color: colourRandomizer(),
+        }
     }).showToast();
 };
 
@@ -82,6 +86,22 @@ function busquedaProductos(evt) {
     };
     Toastify({
         text: `¡Filtrado del producto '${valorUsuario}' exitoso!`,
-        duration: 3000
+        duration: 3000,
+        style: {
+            background: "linear-gradient(90deg,#ee00ff 0%, #ffa000 80%)",
+            color: colourRandomizer(),
+        }
     }).showToast();
 };
+
+function colourRandomizer() {
+    let value = Math.floor(Math.random() * 9);
+    if (value > 6) {
+      return "black";
+    } else if (value >= 3 && value <= 6) {
+      return "blue";
+    } else if (value < 3) {
+      return "green";
+    }
+  }
+  
