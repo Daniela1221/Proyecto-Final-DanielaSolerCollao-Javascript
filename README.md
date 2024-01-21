@@ -19,6 +19,11 @@ Se implementa el uso de:
 - Eventos
 - Librería Toastify
 - Fetch con un archivo JSON local
+- CSS de Tailwind
+
+Importante: para no tener error en la visualización del proyecto, en la terminal correr el siguiente comando:
+
+**`npx tailwindcss -i ./css/styles.css -o ./dist/output.css --watch`**
 
 # Futuras mejoras
 
