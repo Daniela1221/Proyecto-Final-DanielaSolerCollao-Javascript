@@ -1,0 +1,16 @@
+[
+    {"id": 1, "nombre": "fideos", "categoria": "alimento", "cantidad": 20, "precio": 900, "img": "https://cdn.dimerc.cl/media/catalog/product/cache/1/thumbnail/x600/040ec09b1e35df139433887a97daa66f/7/7/7766c5268c258fcbbb7b51f3c91071e8.jpg"},
+    {"id": 2, "nombre": "arroz", "categoria": "alimento", "cantidad": 15, "precio": 1500, "img": "https://jumbo.vtexassets.com/arquivos/ids/395818/Arroz-grado-1-envase-degradable-2-kg.jpg"},
+    {"id": 3, "nombre": "atún", "categoria": "alimento", "cantidad": 30, "precio": 1300, "img": "https://orizoncl.vtexassets.com/arquivos/ids/159805/BANNER-HERO-1000x1000_-NUEVA63.jpg"},
+    {"id": 4, "nombre": "aceite", "categoria": "alimento", "cantidad": 10, "precio": 2500, "img": "https://r.btcdn.co/r/eyJzaG9wX2lkIjo0MDY0LCJnIjoiMTAwMHgifQ/f94f9d776de57d4/653371-7790272001005.jpg"},
+    {"id": 5, "nombre": "sal", "categoria": "alimento", "cantidad": 12, "precio": 500, "img": "https://www.salcaribe.cl/wp-content/uploads/2020/04/bolsa-lobos-gruesa-10x1kg.jpg"},
+    {"id": 6, "nombre": "azúcar", "categoria": "alimento", "cantidad": 9, "precio": 1200, "img": "https://santaisabel.vtexassets.com/arquivos/ids/189631/Azucar-blanca-granulada-1-kg.jpg"},
+    {"id": 7, "nombre": "lavalozas", "categoria": "limpieza", "cantidad": 6, "precio": 2200, "img": "https://cugat.cl/wp-content/uploads/2021/04/7805000115906-2.jpg"},
+    {"id": 8, "nombre": "esponja", "categoria": "limpieza", "cantidad": 23, "precio": 300, "img": "https://www.grupoegle.cl/wp-content/uploads//2016/09/ESPONJA-DE-LOZA-NOBEL.jpg"},
+    {"id": 9, "nombre": "virutilla", "categoria": "limpieza", "cantidad": 8, "precio": 2000, "img": "https://www.grupoegle.cl/wp-content/uploads//2019/06/VIRUTILLA-PLATA-NOBEL.jpg"},
+    {"id": 10, "nombre": "cloro", "categoria": "limpieza", "cantidad": 8, "precio": 1200, "img": "https://almaceniquique.cl/wp-content/uploads/2021/02/336612.jpg"},
+    {"id": 11, "nombre": "papel higénico", "categoria": "baño", "cantidad": 30, "precio": 800, "img": "https://alvicl.vtexassets.com/arquivos/ids/157882/Papel-higienico-doble-hoja-24-un.jpg"},
+    {"id": 12, "nombre": "pasta de dientes", "categoria": "baño", "cantidad": 10, "precio": 1300, "img": "https://i5.walmartimages.com.mx/gr/images/product-images/img_large/00750103591102L.jpg"},
+    {"id": 13, "nombre": "peineta", "categoria": "baño", "cantidad": 6, "precio": 2000, "img": "https://casadelestilista.cl/cdn/shop/products/01-15-006.png"},
+    {"id": 14, "nombre": "cepillo de dientes", "categoria": "baño", "cantidad": 9, "precio": 1100, "img": "https://kuru-ko.cl/cdn/shop/products/cepillo-dientes-extra-suave_2000x.jpg"}
+]

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Minimarket Delicias | Pre-entrega 2</title>
+        <link rel="shortcut icon" href="./assets/favicon/supermercado.ico" type="image/x-icon">
+        <link rel="stylesheet" href="./dist/output.css">
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js" defer></script>
+        <script src="./js/functions.js" defer></script>
+        <script src="./js/main.js" defer></script>
+        
+    </head>
+    <body>
+        <header>
+            <h1 class="text-7xl text-center ">Bienvenido a Minimarket Delicias</h1>
+            <div class="flex justify-center">
+                <p class="flex justify-center text-center subtitulo text-xl mt-2 mb-7">¡Conoce los productos que tenemos para ti! Revisa la cantidad de stock que tenemos en tienda para asegurarte los productos y no pierdas tu viaje.</p>
+
+            </div>
+        </header>
+        <main>
+            <section class="flex justify-evenly">
+                <div>
+                    <div class="text-center mt-8">
+                        <!-- <button class="rounded-lg bg-orange-200 w-64 mb-7 hover:bg-orange-400" onclick="buscarCategoria()">Buscar por Categoría</button> -->
+                        <form id="formulario" class="flex justify-center flex-col items-center">
+                            <label for="busqueda" class="rounded-lg bg-orange-400 w-64 mb-7">Buscar por Categoría</label>
+                            <input type="text" id="busqueda" name="busqueda" class="border-black border-2 w-64 mb-2">
+                            <button type="submit" class="rounded-lg bg-orange-400  w-32 hover:bg-orange-600"> Enviar </button>
+                        </form>
+                    </div>
+                    <div id="respuesta" class="text-center mt-8"></div>
+                </div>
+    
+                <div>
+                    <div class="mt-8 text-center">
+                        <!-- <button class="rounded-lg bg-orange-200 w-64 mb-7 hover:bg-orange-400" onclick="buscarCategoria()">Buscar por Categoría</button> -->
+                        <form id="formularioProductos" class="flex justify-center flex-col items-center">
+                            <label for="busquedaProducto" class="rounded-lg bg-orange-400 w-64 mb-7">Buscar producto</label>
+                            <input type="text" id="busquedaProducto" name="busquedaProducto" class="border-black border-2 w-64 mb-2">
+                            <button type="submit" class="rounded-lg bg-orange-400 w-32 hover:bg-orange-600"> Enviar </button>
+                        </form>
+                    </div>
+                    <div id="respuestaProductos" class="text-center mt-8"></div>
+                </div>
+
+            </section>
+
+            <section>
+                <h2 class="text-4xl text-center mt-10 mb-10">Todos los Productos</h2>
+                <div id="productos" class="flex flex-wrap justify-center mb-10"></div>
+            </section>
+
+            <section>
+                <div class="flex justify-center mt-10 bg-opacity-20 bg-red-300 h-80 items-center " >
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.523835648486!2d-70.6438494897703!3d-33.435656473284354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c599a2426733%3A0xbbb70dc2cbdce1b0!2sParque%20Forestal!5e0!3m2!1ses!2scl!4v1703884550146!5m2!1ses!2scl" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div class="items-center justify-center text-center h-full">
+                        <h3 class="text-3xl ml-10 mb-2 mt-3 underline">Ubicación y Horarios</h3>
+                        <p class="w-96 ml-10">Nos encontramos ubcados en el Parque Forestal de la comuna de Santaigo, Región Metropolitana, Chile.</p>
+                        <h4 class="ml-10 text-xl font-semibold mt-8 mb-2">Horarios</h4>
+                        <p class="w-96 ml-10">Los horarios de apertura de local es de lunes a viernes entre 10:00 hrs y 19:00 hrs. Los días sábados, el horario de apertura es de 10:00 hrs a 14:00 hrs.</p>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+        
+        <footer class="mt-16" >
+            <div class="w-56 h-full bg-orange-400 tamanioFooter flex justify-center">
+                <p class="h-100 text-white"><strong>@Todos los derechos reservados</strong></p>
+            </div>
+        </footer>
+    </body>
+</html>
