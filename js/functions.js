@@ -29,7 +29,7 @@ async function renderProductos() {
 function busqueda(evt) {
     evt.preventDefault();
     let minimarket = JSON.parse(localStorage.getItem("minimarket"));
-    let valorUsuario = document.getElementById('busqueda').value;
+    let valorUsuario = document.getElementById('busqueda').value.toLowerCase();
     // console.log(valorUsuario);
     if (valorUsuario) {
         let filtrar = minimarket.filter( (item) => {
@@ -63,11 +63,11 @@ function busqueda(evt) {
 function busquedaProductos(evt) {
     evt.preventDefault();
     let minimarket = JSON.parse(localStorage.getItem("minimarket"));
-    let valorUsuario = document.getElementById('busquedaProducto').value;
+    let valorUsuario = document.getElementById('busquedaProducto').value.toLowerCase();
     // console.log(valorUsuario);
     if (valorUsuario) {
         let filtro = minimarket.filter( (item) => {
-            return item.nombre == valorUsuario;
+            return item.nombre.toLowerCase() == valorUsuario;
         });
         let resultado = (valor) => {
             return`
